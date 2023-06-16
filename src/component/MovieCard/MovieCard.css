@@ -1,0 +1,58 @@
+.movie-card{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.top{
+    width:286px;
+    height: 400px;
+    
+}
+.desc{
+    font-size: 14px;
+    text-align: center;
+    font-style: italic;
+    
+}
+.card {
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 5px 5px 5px rgb(247, 222, 222);
+  }
+  .click{
+     
+        padding: 0.8rem ;
+        font-size: 1rem;
+        background: #0c0302;
+        color: #f11a1a;
+        border-radius: 40px;
+        border: .8;
+        letter-spacing: 1px;
+        cursor: pointer;
+        outline: 0;
+     }
+     
+     .click:hover {
+        opacity: .8;
+     }
+     .click1{
+        padding: 0.8rem ;
+        font-size: 1rem;
+        background: #0c0302;
+        color: #fff;
+        border-radius: 40px;
+        border: 10;
+        letter-spacing: 1px;
+        cursor: pointer;
+        outline: 0;
+       
+     }
+     .click1:hover{
+       opacity: .9;
+     }
+
+  

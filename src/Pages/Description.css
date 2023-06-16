@@ -1,0 +1,14 @@
+.des{
+    position: absolute;
+    background-color: rgb(235, 230, 230);
+    font-style: italic;
+   
+    
+}
+h1{
+   position: relative;
+    align-items: center;
+   margin-top: 10%;
+   margin-left: 10%;
+   padding-bottom: 50%;
+}
